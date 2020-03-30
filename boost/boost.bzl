@@ -226,7 +226,7 @@ def boost_deps():
         http_archive(
             name = "boost",
             build_file = "@com_github_nelhage_rules_boost//:BUILD.boost",
-            sha256 = "d73a8da01e8bf8c7eda40b4c84915071a8c8a0df4a6734537ddde4a8580524ee",
+            sha256 = "46347075b322ff26994ebce709aca22ee20239a4266485a3daf1b7dc6396d83f",
             strip_prefix = "boost_1_71_0",
             urls = [
                 "https://storage.googleapis.com/twa-build-support/boost_1_71_0.tar.bz2"
